@@ -1,4 +1,5 @@
 // validator Game
+//Task Description: make a form with validations
 // var passwordTxt = document.getElementById("password");
 // var country = document.getElementById("country");
 // var submitBtn = document.getElementById("submitBtn");
@@ -68,8 +69,8 @@
 // });
 
 
-
 // Second Task
+//Task Description: take a letter and print its ASCII code, determine if shift, alt or ctrl keys were pressed and prevent context menu from appearing 
 // var input = document.getElementsByTagName("input");
 // var result = document.getElementsByTagName("p");
 // input[0].addEventListener("input", function(event)

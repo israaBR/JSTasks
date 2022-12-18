@@ -1,4 +1,5 @@
 //Task 1.1
+//Task Description: take a group of numbers and perform some arithmetic operations on them
 // function add(numbers)
 // {
 //     var sum = 0;
@@ -29,6 +30,7 @@
 
 
 //Task 1.2
+//Task Description: take a group of numbers and arrange them ascending and descending
 // function asc(numbers)
 // {
 //     return numbers.sort();
@@ -45,6 +47,7 @@
 
 
 //Task 2
+//Task Description: take a radius and calculate circle area + take angel and calculate its cosine
 // function calcCircleArea(radius)
 // {
 //     return Math.PI * Math.pow(radius, 2);
@@ -65,6 +68,7 @@
 
 
 //Task 3
+//Task Description: Take a letter and a string then search for the letter in this string and return its indices
 // function searchForTheLetter(sentence ,letter)
 // {
 //     var letters = sentence.split("");
@@ -82,6 +86,7 @@
 
 
 //Task 4
+//Task Description: Take a group of names and pick 2 random names out of them 
 // function getRandomNames(names)
 // {
 //     var randomNames = [];

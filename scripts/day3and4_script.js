@@ -10,7 +10,6 @@
 
 
 
-
 // slide show game
 // var count = 1;
 // function showPreviousImg()
