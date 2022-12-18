@@ -1,0 +1,52 @@
+p{
+    display: none;
+    color: rgb(205, 3, 3);
+    background-color: rgb(250, 204, 204);
+    padding: 5px;
+}
+input[type='text'], input[type='email'], input[type='password']{
+    padding: 7px;
+    width: 50%;
+    border-radius: 5px;
+    border-color: rgb(204, 155, 249);
+    margin-left: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type='email']{
+    margin-left: 44px;
+}
+input[type = 'password']{
+    margin-left: 5px;
+}
+.blockClass
+{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    display: block;
+}
+select{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 30px;
+}
+button{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 0;
+    margin: 5px;
+}
+button[type='submit']{
+    background-color: rgb(11, 218, 81);
+}
+button[type='reset']{
+    background-color: rgb(249, 69, 69);
+    padding-left: 17px;
+    padding-right: 17px;
+}
