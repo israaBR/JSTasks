@@ -1,2 +1,2 @@
 # JSTasks
-Solutions of ITI java script course tasks 
+Solutions of ITI JavaScript course tasks 
