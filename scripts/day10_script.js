@@ -1,4 +1,4 @@
-// Task 1
+// // Task 1
 // function display_course(course){
 //     let defaultCourse = {
 //         name: "course name",
@@ -17,7 +17,7 @@ let info_parent = document.getElementById("user-info");
 
 async function display_user_info(userID){
     try {
-        let user = await fetch(`https://jsonplaceholder.typicode.com/posts?userId=${userID}`).json();
+        let user = await (await fetch(`https://jsonplaceholder.typicode.com/users/${userID}`)).json();
         Object.entries(user).forEach((item)=>{
             let newUserInfo = document.createElement("p");
             newUserInfo.textContent = `${item[0]}: ${item[1]}`;
@@ -28,9 +28,10 @@ async function display_user_info(userID){
         console.log(errorMsg);
     }
 }
+
 fetch("https://jsonplaceholder.typicode.com/users")
+.then((response)=>response.json())
 .then((users)=>{
-    users = users.json();
     for(let i=0; i< users.length; i++)
     {
         let newUserBtn = document.createElement("button");
